@@ -1,1 +1,11 @@
-# paths, model endpoints, vault settings
+llama_cpp:
+  base_url: "http://127.0.0.1:8080"
+  extraction_model: "Qwen3-4B"
+
+pipeline:
+  segment_chars: 2400
+  overlap_chars: 240
+
+paths:
+  database: "data/memory.db"
+  vault_path: "C:/Path/To/ObsidianVault"
